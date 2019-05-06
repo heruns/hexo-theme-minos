@@ -89,7 +89,7 @@ hexo.extend.helper.register('format_date', injectMomentLocale(function (date) {
  * Format date to string with year.
  */
 hexo.extend.helper.register('format_date_full', injectMomentLocale(function (date) {
-    return moment(date).format('MMM D YYYY');
+    return moment(date).format(this.config.date_format || 'MMM D YYYY');
 }));
 
 /**

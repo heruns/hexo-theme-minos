@@ -74,9 +74,10 @@
         }
     });
 
-    if (typeof(moment) === 'function') {
-        $('.article-meta time').each(function () {
-            $(this).text(moment($(this).attr('datetime')).fromNow());
-        });
-    }
+    // don't want to show time from now
+    // if (typeof(moment) === 'function') {
+    //     $('.article-meta time').each(function () {
+    //         $(this).text(moment($(this).attr('datetime')).fromNow());
+    //     });
+    // }
 })(jQuery);
