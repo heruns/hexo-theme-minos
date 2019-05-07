@@ -37,7 +37,7 @@
         $('figure.hljs').each(function(i, figure) {
           var codeId = 'code-' + i;
           var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
+          var copyButton = $('<button>复制 <i class="iconfont icon-clipboard"></i></button>');
           code.id = codeId;
           copyButton.addClass('clipboard-btn');
           copyButton.attr('data-clipboard-target-id', codeId);

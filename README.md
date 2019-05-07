@@ -11,6 +11,15 @@
 
 ### :gift: Features
 
+该项目 fork 自 [@ppoffice](https://github.com/ppoffice) 开发的 Hexo 主题 [hexo-theme-minos](https://github.com/ppoffice/hexo-theme-minos)，很喜欢这种极简风格，所以 fork 过来稍作修改作为自己的博客主题，感谢大神的开源。
+
+主要修改内容如下：
+
+- 将 fontawesome 图标改为 iconfont 图标，因为 fontawesome 太大了
+- 将 moment.js 改为不带语言的版本，个人觉得没必要，而且语言包太大
+- 修改 outdatedbrowser 提示为中文
+- 禁用 lightgallery 的分享功能，facebook 和 twitter 那些分享平台大陆基本上用不到
+
 **Extensive Plugin Support**
 
 Minos includes plentiful search, comment, sharing and other plugins out of the box. You can choose any of them to enrich your
